@@ -69,7 +69,8 @@
   </p>
 <hr>
   <p>
-    <h2>Google搜索</h2>
+       <h2>Google搜索</h2>
+       
    
              
              
@@ -78,23 +79,109 @@
   <p>
     <dr>个人信息调查表</dr><br>
     <br>
-    <dr>性别</dr><br>
-    <br>
+    <dr>性别</dr>
+      <dd> 
+        <label><input type="radio" value="男" name="女" >男</label>
+        <label><input type="radio" value="女" name="男" >女</label>
+       </dd>
     <dr>年龄</dr><br>
-    <br>
-    <dr>生日</dr><br>
-    <br>
-    <dr>生辰</dr><br>
-     <br>
+      <dd>
+        <select name="age">
+          <option value="" hidden>请选择</option>
+          <optgroup label="少年"></optgroup>
+            <option value="1-6">1到6岁</option>
+            <option value="6-12">6到12岁</option>
+          <optgroup label="青年"></optgroup>
+            <option value="13-15">13到15岁</option>
+            <option value="16-18">16到18岁</option>
+          <optgroup label="少年"></optgroup>
+            <option value="1-6">1到6岁</option>
+            <option value="6-12">6到12岁</option>
+        </select>
+       </dd>
+    <dr>生日</dr>
+    <dd>
+      <input type="date" value="2021-11-04" naeme="birthday">
+    </dd>
+
+    <dr>生辰</dr>
+    <dd><input type="time" name="birthtime"></dd>
+    
     <dr>照片</dr>
-       <dd>点我上传照片，我比文件上传按钮好看</dd>
-    <dr>自我介绍</dr>
+     <dd>
+        <input hidden="file" name="avatar" id="avatar-upload">
+        <label for="avatar-upload">点我上传照片，我比文件上传按钮好看</label>
+     </dd>
+    <dr>自我介绍</dr><br>
+    <dd>
+      <textarea name="intro" cols="30" rows"10">&lt;/textarea></textarea>
+    </dd> 
+    
+    <fieldset disabled>
+      <leggend>这里全部禁用了</leggend>
+      <input type="test">
+      <input type="test">
+      <input type="test">
+      <input type="test">
+    </fieldset>
+    
+    <button>提交</button>
+    <button type="reset">重置</button>
   </p>
-  
+<hr>
+   <p>
+     <table border=1>
+       <col>
+       <col bgcolor=red>
+       <thead>
+         <tr>
+           <th>编号</th>
+           <th>品名</th>
+           <th>进阶</th>
+           <th>出价</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <th>aaa</th>
+           <td>a</td>
+           <td rowspan="2">a</td>
+           <td>a</td>
+         </tr>
+         <tr>
+           <th>a</th>
+           <td>a</td>
+           <td>a</td>
+         </tr>
+         <tr>
+           <th>a</th>
+           <td>a</td>
+           <td>a</td>
+           <td>a</td>
+         </tr>
+         <tr>
+           <th>a</th>
+           <td>a</td>
+           <td>a</td>
+           <td>a</td>
+         </tr>
+       </tbody>
+    </table>
+<hr>
+
+    <img usemap="#map1" width=300 src="https://drscdn.500px.org/photo/174778125/m%3D1170_k%3D1/2841ccf2a3720e8e794a6a6930f6ff2c" >
+    <map name="map1">
+      <area shape="rect" coords="202,196,56,105" href="https://www.jd.com/" target="_blank">
+      <area shape="circle" coords="152,308,150" href="https://www.jd.com/" target="_blank">
+    </map>
+<hr>
+     <a target="bottom-frame" href="https://www.mi.com/">小米</a>  
+     <br>
+     <iframe name="bottom-frame" src="https://www.nodejs.org/" frameborder="1"></iframe>
+     <p>aaa&nbsp;&nbsp;&nbsp;&nbsp;bbbbb</p>
+     <p><pre>aaa       bbbb</pre></p>
+      >>>>>>>>>>>>>>>>>>>>>>&lt;<<<<<<<<<<<<<<<<<< &lt;span&gt;&lt;/span&gt;
+  </p>
 </div>
-  
-  
-
-
 </body>
 </html>
