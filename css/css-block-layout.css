@@ -1,0 +1,72 @@
+ul{
+  padding: 0;
+  list-style: none;
+}
+.a {
+  display: block;
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+}
+.a p{
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.b{
+  display: block;
+}
+.b p {
+  text-align: center;
+  width: 600px;
+  margin: 10px auto;
+}
+
+.c {
+  list-style:none;
+  padding: 0;
+  width:600px;
+  margin: 10px auto;
+}
+
+.c li{
+  box-sizing: border-box;
+  background-color: pink;
+  width: 180px;
+  height: 40px;
+  border: 3px solid;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.c li:last-child {
+  margin-bottom: 0px;
+}
+.c li:nth-child(n + 5) {
+  margin-left: 210px;
+}
+.c li:nth-child(n + 9) {
+  margin-left: 420px;
+}
+.c li:nth-child(4n + 5) {
+  margin-top: -220px;
+}
+.c  li:hover{
+  background-color: red;
+}
+
+.d li{
+    border-bottom: 1px dashed;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+.d li :last-child{
+  border-bottom: 0;
+}
+
+.e{
+   background-color: rgb(238, 138, 238);
+   text-align: center;
+  }
