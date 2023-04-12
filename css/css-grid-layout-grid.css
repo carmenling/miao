@@ -1,0 +1,20 @@
+* {
+  xbackground-color: rgba(0,0,0,0.08);
+  xbox-shadow: inset 1px red;
+}
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+}
+
+div > .h2 {
+  background-color: blue;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-auto-rows: 70px;
+}
+

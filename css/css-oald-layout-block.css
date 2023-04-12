@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.O {
+  background-color: pink;
+  padding-top: 0px;
+  width: 200px;
+  height: 740px;
+  margin: 0;
+}
+.O h2{
+  text-align: center;
+  xmargin: 10px 10px 20px 10px;
+
+}
+.O ul {
+  color: blue;
+  list-style: none; /*列表样式设置*/
+  overflow: scroll;
+}
+input {
+  width: 150px;
+  height: 20px;
+}
+button {
+  width: 30px;
+  height: 20px;
+}
+.f {
+  width: 400px;
+  height: 740px;
+  background-color: #f7f15c;
+  border: 2px solid black;
+  margin-left: 200px;
+  margin-top: -100vh;
+}
+.f div  {
+  overflow: scroll;
+  border-top: 2px solid black;
+}
+.V {
+  background-color: pink;
+
+  width: 200px;
+  height: 740px;
+  margin-left: 604px;
+  margin-top: -100vh;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.H {
+  background-color: pink;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  width: 200px;
+  height: 744px;
+  margin-left: 800px;
+  margin-top: -93vh;
+}
+
