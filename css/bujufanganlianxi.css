@@ -1,0 +1,61 @@
+* {
+  background-color: #0001;
+  box-shadow: inset 1px red;
+}
+
+
+
+div {
+  display: flex;
+  color: white;
+  flex-direction: column ;
+  width:700px;
+  height: 400px;
+  background-color: pink;
+  justify-content: center;
+  flex-wrap: wrap;
+  xalign-items: center;
+  align-content: center;
+
+}
+
+div span {
+  width: 150px;
+  height: 100px;
+  background-color: purple;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+
+
+main {
+  background-color: rgb(35, 33, 33);
+  width:700px;
+  height: 400px;
+  xpadding-top: 10px;
+  xmargin-top: 20px;
+}
+
+
+.one {
+  background-color: red;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.two {
+  background-color:yellow;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.three {
+  background-color: lime;
+  width: 150px;
+  height: 100px;
+  float: left;
+
+}
