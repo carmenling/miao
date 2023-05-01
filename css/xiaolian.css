@@ -1,0 +1,15 @@
+span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  transition: 3s linear;
+
+}
+
+span:hover {
+  transform: rotate(360deg);
+}
+em {
+  transform: 3s linear;
+  display: inline-block;
+}

@@ -1,0 +1,82 @@
+属性 position 规定元素的定位类型
+值  1.static 默认值，任意 position: static; 的元素不会被特殊的定位。
+    2.relative 相对定位，在一个相对定位（position属性的值为relative）的元素上设置 top 、 right 、 bottom 和 left 属性会使其偏离其正常位置。其他的元素的位置则不会受该元素的影响发生位置改变来弥补它偏离后剩下的空隙。
+    3.flxed 固定定位，一个固定定位（position属性的值为fixed）元素会相对于视窗来定位，这意味着即便页面滚动，它还是会停留在相同的位置。和 relative 一样， top 、 right 、 bottom 和 left 属性都可用。
+    4.absolute 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+多列布局
+column-count: （列数，数字）；
+
+列宽
+column-width：；
+
+列的标题设置
+column-span: all(全跨) / none（不跨，默认）
+
+column-gap: ;
+
+
+背景颜色渐变
+background-image: linear-gradient（角度，颜色百分比）
+例子：
+div {
+  height: 200px;
+  background-image: linear-gradient( 45deg, white 25%, black 25%, black 50%, white 50%, white 75%, black 75%);
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  transition: 10s;
+}
+div:hover {
+  background-position: 1000px 0;
+}
+圆环形颜色渐变
+background-image: radial-gradient(颜色半分比)
+
+
+移动端布局：
+
+  PC端布局：
+
+
+动画：
+
+简写
+animation:；
+
+  animation-play-state:;
+  running 默认值，播放状态
+  paused 暂停状态
+
+  animation: 2;
+  动画播放的次数，infinite表示无数次
+
+  animation-direction: normal;
+  动画播放的方向
+  normal  每次都是正向播放
+  reverse  每次都是反向播放
+  alternate 一正一反播放
+  alternate-reverse  一反一正播放
+
+  animation-fill-mode:;
+  none
+  backwards
+  动画播放完之前元素就显示为动画第一帧的样子
+  forwards

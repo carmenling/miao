@@ -108,3 +108,21 @@ ul {
 }
 
 
+.h6  {
+  width: 800px;
+  height: 500px;
+  background-color: plum;
+}
+
+.h6 p {
+  background-color: plum;
+}
+img {
+  float: right;
+  height: 100px;
+  width:  100px;
+  margin: 10px;
+}
+#p2 {
+  xfloat: none;
+}
